@@ -1,0 +1,62 @@
+.get{
+    margin-top: 50px;
+    &__started{
+        display: grid;
+        gap: 15px;
+        img{
+            width: 60%;
+            margin: auto;
+        }
+      
+    }
+    #ss{
+        width: 100%;
+    }
+    &__title{
+        font-size: 28px;
+        color: white;
+        font-family: "font";
+        text-align: center;
+    }
+    &__desc{
+        font-size: 16px;
+        color: white;
+        font-family: "font";
+        text-align: center;
+    }
+    &__btn{
+        color: white;
+        background-color: #326CF9;
+        font-family: "font";
+        border: none;
+        transition: 0.4s;
+        padding: 8px;
+        border-radius: 10px;
+        width: 200px;
+        margin: auto;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
+@media(min-width:576px){
+    .get{
+        margin-top: 80px;
+        &__started{
+            width: 500px;
+            margin: auto;
+        }
+    }
+}
+@media(min-width:768px){
+    .get{
+        margin-top: 100px;
+        
+    }
+}
+@media(min-width:1200px){
+    .get{
+        margin-top: 140px;
+        
+    }
+}
